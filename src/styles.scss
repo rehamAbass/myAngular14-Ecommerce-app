@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css2?family=Milonga');
+@import url('https://fonts.googleapis.com/css2?family=Kleymisska');
+
+html,
+body {
+     height: 100%;
+}
+
+body {
+     margin: 0;
+     // font-family: 'Kleymisska', 'Milonga', Roboto, "Helvetica Neue", sans-serif;
+     background-color: #bbcbcb;
+}

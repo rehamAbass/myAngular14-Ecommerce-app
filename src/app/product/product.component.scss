@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Kleymisska&display=swap');
+
+//=================================================================================
+.thePrice {
+    font-size: x-large;
+    font-family: 'Milonga';
+    color: black;
+}
+
+//---------------------------------------------------------------
+.svgg {
+    margin-left: 30px;
+}
+
+//----------------------------------------------------------
+.content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 920px;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    font-family: 'Milonga';
+}
+
+//------------------------------------------------
+svg.material-icons {
+    height: 24px;
+    width: auto;
+}
+
+//-------------------------------------------------------------
+.card-container {
+    font-size: x-large;
+    font-family: 'Milonga';
+    //  margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    // display: flex;
+    // flex-wrap: wrap;
+    justify-content: center;
+    // margin: 70px;
+    margin-top: 100px;
+}
+
+//====================================================================
+.card {
+    font-size: xx-large;
+    font-family: 'Milonga';
+    // all: unset;
+    // border-radius: 8px;
+    border: 0px solid #eee;
+    background-color: #fafafa;
+    // height: 700px;
+    // width: 700px;
+    max-width: max-content;
+    max-height: max-content;
+    // margin: 60px;
+    padding: 10px;
+    margin: 6% 24%;
+    // margin:200px;
+    // display: flex;
+    // flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    // transition: all 0.1s ease-out;
+    box-shadow: 2px 2px 120px 9px #0000;
+    // display: flex;
+    // flex-direction: column;
+    text-align: center;
+    color: blue;
+}
+
+//============================================================
+a {
+    text-decoration: none;
+}
+// -----------------------------------------------------------
+.card:hover {
+    // index: 1000;
+    // transform: scale(3);
+    //  margin:100px;
+    // box-shadow: 1px 1px 50px 20px #3f51b5;
+}
+
+//--------------------------------------
+.desc {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 500;
+    // padding: 10px;
+    // margin: 20px 70px;
+    color: black;
+}
+
+//---------------------------------------------------------
+.imgClass {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+    height: content;
+    width: content;
+    // max-width: ;
+    max-height: 600px;
+}
+
+//------------------------------------------------------------------
+.imgClass:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
+}
+
+//------------------------------------------------------------------------
+.btns {
+    margin: 40px;
+    transform: scale(2.2);
+    flex-direction: row;
+    // margin-left:40px;
+}
+
+//--------------------------------------------------------------------------
+h1,
+h2 {
+    font-size: x-large;
+    font-family: 'Milonga';
+    margin: 10px;
+    padding: 10px;
+}
+
+p {}
+
+//--------------------------------------------------------------------------
