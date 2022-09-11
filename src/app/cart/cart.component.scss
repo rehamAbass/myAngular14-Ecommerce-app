@@ -101,7 +101,7 @@
 
 //-----------------------------------------------------------------------
 .del {
-    background-color: rgba(210, 0, 190, 0.55);
+    background-color: rgba(220, 0, 150, 0.6);
     //  rgba(240, 10, 80, 1);
     //  #c92a2a;
     color: white;
@@ -115,32 +115,32 @@ a {
 //-----------------------------------------------------------------
 .add {
     // box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
-    background-color: rgba(0, 190, 210, 0.55);
+    background-color: rgba(4, 190, 100, 0.795);
     // rgba(0, 245, 80, 1);
     color: white;
     //   black;
 }
 
 .amount {
-    opacity: 0.85;
+    // opacity: 0.85;
     //  font-weight: 500;
     // font-size: x-large;
 }
 
 .price {
     margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
 
 }
 
 //---------------------------------------------------------------------
 .btnadd {
     margin-left: 12px;
-    height: 30px;
-    width: 30px;
+    height: 38px;
+    width: 38px;
     border-radius: 20px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: xx-large;
 }
 
