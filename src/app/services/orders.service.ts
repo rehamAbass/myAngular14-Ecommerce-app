@@ -20,6 +20,10 @@ export class OrdersService {
       amount += it.amount;
       finalPrice += it.finalPrice;
     })
+    //************ */
+    this.myCart.items = this.myCart.items.filter((it) => it.amount !== 0 )
+    console.log("Reham after filter cart = ", this.myCart.items);
+    //**************** */
     this.myCart.finalAmount = amount;
     this.myCart.finalPrice = Math.round(finalPrice * 100) / 100;
     //Math.round(num * 100) / 100
