@@ -57,6 +57,10 @@ export class OrdersService {
     return false;
   }
   //-------------------------------------------
+  getAmount() {
+    return this.myCart.finalAmount;
+  }
+  //-----------------------------------------
   getCart() { return this.myCart; }
   //--------------------------------------------
   updateCounterPrices_Of_ExistedItem(id: number, flagIncrease: boolean) {

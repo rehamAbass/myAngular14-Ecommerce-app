@@ -15,7 +15,7 @@
 <div class="theCartCol">.
   <a class="myCart" routerLink="cart" routerLinkActive="active" >
     <span class="material-icons"> shopping_cart</span>
-    <!-- <span id="numberProd">{{counter}}</span> -->
+    <span id="numberProd" *ngIf="updateCounter()"> {{counter}}</span>
   </a>
   <a [routerLink]="['/']"  routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
   ><span class="material-icons home">store</span></a>
