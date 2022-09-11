@@ -1,27 +1,20 @@
-# MyApp
+# Angular14-Ecommerce-app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+## Hello everybody this is my first angular14 app ,I am Happy so much 😊 😊  for building this app.
+▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰
+## download ->> cd my-app  ->> npm i ->>  wait a minute 😊, then press : ng serve
+▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰
+# first page - Home page of the store :
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://user-images.githubusercontent.com/42107725/188830813-e3d2e28d-ce8f-44ff-a1ab-0f091d6e0dff.png)
+▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-## Code scaffolding
+# second page - the Cart 🛒:
+==============================================================================================================
+![image](https://user-images.githubusercontent.com/42107725/188831364-6657c528-8f32-4a5a-8015-08b36990ca49.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰
+# many pages - routers - depends on id for each product :
+================================================================================================================
+![image](https://user-images.githubusercontent.com/42107725/188831712-6d55fe9a-7c2d-4059-9471-26a0065daf6c.png)
