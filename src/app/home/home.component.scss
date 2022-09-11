@@ -114,13 +114,13 @@ svg.material-icons {
     box-shadow: 1px 1px 1px #343a40;
     display: flex;
     flex-direction: column;
-    transform: scale(0.88);
+    transform: scale(0.80);
 }
 
 // -----------------------------------------------------------
 .card:hover {
     z-index: 3000;
-    transform: scale(1);
+    transform: scale(0.9);
     //  margin:50px;
     // box-shadow: 1px 1px 4px 2px #343a40;
     box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
