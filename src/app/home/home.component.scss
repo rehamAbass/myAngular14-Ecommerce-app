@@ -6,9 +6,9 @@
     color: #3f51b5;
     text-align: center;
     text-shadow: 1px #3f51b5;
-    font-size: x-large;
+    font-size: large;
     font-family: 'Kleymisska', 'Milonga';
-    font-weight: 540;
+    font-weight: 550;
 }
 
 // //----------------------------------------------------------------
@@ -101,7 +101,7 @@ svg.material-icons {
     border: 1px solidrgba(10, 100, 200, 0.8);
     background-color: rgba(242, 246, 243, 0.7);
     height: 420px;
-    width: 390px;
+    width: 380px;
     width: content;
     height: content;
     margin: 6px;
@@ -114,13 +114,13 @@ svg.material-icons {
     box-shadow: 1px 1px 1px #343a40;
     display: flex;
     flex-direction: column;
-    transform: scale(0.80);
+    transform: scale(0.75);
 }
 
 // -----------------------------------------------------------
 .card:hover {
     z-index: 3000;
-    transform: scale(0.9);
+    transform: scale(0.85);
     //  margin:50px;
     // box-shadow: 1px 1px 4px 2px #343a40;
     box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
@@ -143,7 +143,7 @@ svg.material-icons {
 
 //------------------------------------------------------------------
 .imgClass:hover {
-    border-radius: 20px;
+    border-radius: 24px;
     // box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
 }
 
