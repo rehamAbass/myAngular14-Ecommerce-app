@@ -21,7 +21,8 @@ export class OrdersService {
       finalPrice += it.finalPrice;
     })
     this.myCart.finalAmount = amount;
-    this.myCart.finalPrice = finalPrice;
+    this.myCart.finalPrice = Math.round(finalPrice * 100) / 100;
+    //Math.round(num * 100) / 100
     console.log("updating final price & amounts , cart = ", this.myCart);
   }
   //========================================================================
@@ -82,9 +83,11 @@ export class OrdersService {
         const newFinalPrice = prod.price * newAmount;
         const newProd = { ...prod, finalPrice: newFinalPrice, amount: newAmount };
         this.myCart.items = this.myCart.items.map((x: ICartItem) => x.id === id ? newProd : x)
-        console.log("successs to update the cart items, updated item = ", newProd)
+        // console.log("successs to update the cart items, updated item = ", newProd)
       }
-    } else { console.log("ERROR filter didnt find the existed item !Error !"); return; }
+    } else {
+      console.log("ERROR filter didnt find the existed item !Error !"); return;
+    }
   }
 }
 //========================================================================================

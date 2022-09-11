@@ -14,8 +14,9 @@
 <!-- -------------------------------------------------------------------------------------------- -->
 <div class="theCartCol">.
   <a class="myCart" routerLink="cart" routerLinkActive="active" >
-    <span class="material-icons"> shopping_cart</span>
-    <span id="numberProd" *ngIf="updateCounter()"> {{counter}}</span>
+     <div id="numberProd" *ngIf="updateCounter()"> {{counter}}</div>
+     <span class="material-icons"> shopping_cart</span>
+   
   </a>
   <a [routerLink]="['/']"  routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
   ><span class="material-icons home">store</span></a>

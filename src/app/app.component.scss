@@ -1,18 +1,21 @@
 //=================================================================================
 #myname {
     font-size: x-large;
-font-family: 'Kleymisska';
-    transform: 'scale(1.24)';
+    font-family: 'Milonga';
+    // font-family: 'Kleymisska';
+    // transform: 'scale(1.24)';
     // color: white;
 }
 
 //============================================================
 a {
     text-decoration: none;
-    color: #343a40;
+
+    color: rgba(120, 120, 120, 0.6);
 
     &.active {
-        color:orange;     
+        color: rgba(0, 140, 210, 0.8);
+        // #3f51b5;
     }
 }
 
@@ -21,33 +24,36 @@ a {
     color: #3f51b5;
     text-align: center;
     // text-shadow: 1px blue;
-    font-size: x-large;
-    font-family: 'Kleymisska', 'Milonga';
-    font-weight: 590;
+    font-size: large;
+    font-family: 'Milonga';
+    font-weight: 400;
 }
 
 //----------------------------------------------------------------
 .toolbar {
+    // font-family: 'Kleymisska'; //, 'Milonga';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
+    top: 0.8%;
+    // left: 0;
+    // right: 0;
+    width: 100%;
+    height: 1%; // 50px;
     display: flex;
     align-items: center;
-    background-color: #343a40;
+    background-color: #3f51b5; // #343a40;
     // #0f51b5;
     color: white;
-    font-weight: 550;
-    font-size: x-large;
-    padding: 10px;
+    font-weight: 400;
+    font-size: larger;
+    padding: 1%;
     padding-left: 30%;
-    font-family: 'Kleymisska';
+    // font-family: 'Milonga';
+    box-shadow: 1px 1px 2px 2px lightblue;
 }
 
 //---------------------------------------------------------------
 .thePrice {
-    font-size: x-large;
+    font-size: larger;
     font-family: 'Milonga';
 }
 
@@ -59,7 +65,7 @@ a {
 //----------------------------------------------------------
 .content {
     display: flex;
-    margin: 82px auto 32px;
+    margin: 55px auto 25px;
     padding: 0 16px;
     max-width: 960px;
     flex-direction: column;
@@ -74,8 +80,7 @@ svg.material-icons {
 
 //---------------------------------------------------
 #numberProd {
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-left: 88%;
 }
 
 //----------------------------------------------------
@@ -96,14 +101,16 @@ svg.material-icons {
 
 // ----------------------------------------------------------
 .theCartCol {
-    transform: scale(3.1);
+    transform: scale(3);
     position: fixed;
     // color:blue;
     display: flex;
     flex-direction: column;
-    margin-left: 140px;
-    margin-top: 220px;
+    margin-left: 5%; //140px;
+    margin-top: 4%; //220px;
     z-index: 2000;
+    // background-color: rgba(10, 10, 10, 0.3);
+    // text-shadow: 1px 1px 1px rgba(0, 200, 245,0.8);
     text-decoration-line: none;
 }
 
@@ -117,102 +124,11 @@ svg.material-icons {
     color: 343a40;
 }
 
-.card-container {
-    //  margin-left: 10%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    // display: flex;
-    // flex-wrap: wrap;
-    justify-content: center;
-    // margin: 70px;
-    margin-top: 100px;
-}
 
-.card {
-    // all: unset;
-    border-radius: 8px;
-    border: 1px solid #eee;
-    background-color: #fafafa;
-    height: 400px;
-    width: 400px;
-    width: content;
-    height: content;
-    margin: 20px;
-    padding: 10px;
-    // display: flex;
-    // flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.1s ease-out;
-    box-shadow: 1px 1px 2px 1px #343a40;
-    //  #3f51b5;
-    display: flex;
-    flex-direction: column;
-}
-
-// -----------------------------------------------------------
-
-//---------------------------------------------------------
-.imgClass {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 5px;
-    max-width: 160px;
-    max-height: 160px;
-}
-
-.go {
-    margin-left: 40px;
-}
-
-//------------------------------------------------------------------
-.imgClass:hover {
-    border-radius: 20px;
-    box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
-}
-
-//-----------------------------------------------------------------------
-.del {
-    background-color: #f60ebd;
-    //  #c92a2a;
-    color: white;
-}
-
-//-----------------------------------------------------------------
-.add {
-    background-color: #0ca678;
-    color: white;
-    //   black;
-}
-
-//---------------------------------------------------------------------
-.btnadd {
-    margin-left: 14px;
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    font-weight: 500;
-    font-size: xx-large;
-}
-
-.btnadd:hover {
-    background-color: black;
-    color: white;
-}
-
-//------------------------------------------------------------------------
-.btns {
-    margin: 14px;
-    flex-direction: row;
-    // margin-left:40px;
-}
-
-//--------------------------------------------------------------------------
 h1,
 h2 {
-    margin: 5px;
-    padding: 5px;
+    margin: 4px;
+    padding: 2px;
 }
 
 //--------------------------------------------------------------------------

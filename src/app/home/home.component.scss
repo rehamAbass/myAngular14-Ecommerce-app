@@ -5,29 +5,30 @@
 .titleProd {
     color: #3f51b5;
     text-align: center;
-    text-shadow: 1px blue;
+    text-shadow: 1px #3f51b5;
     font-size: x-large;
     font-family: 'Kleymisska', 'Milonga';
     font-weight: 540;
 }
 
-//----------------------------------------------------------------
-.toolbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    background-color: #3f51b5;
-    color: white;
-    font-weight: 600;
-    font-size: xx-large;
-    padding: 10px;
-    padding-left: 30%;
-    // box-shadow: 1px 1px 2px 2px #c5f6fa;
-}
+// //----------------------------------------------------------------
+// .toolbar {
+//      font-family: 'Kleymisska';//, 'Milonga';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     height: 3%;
+//     display: flex;
+//     align-items: center;
+//     background-color: #3f51b5;
+//     color: white;
+//     font-weight: 500;
+//     font-size: larger;
+//     padding: 10px;
+//     padding-left: 30%;
+//     // box-shadow: 1px 1px 2px 2px #c5f6fa;
+// }
 
 //---------------------------------------------------------------
 .thePrice {
@@ -56,12 +57,6 @@ svg.material-icons {
     width: auto;
 }
 
-//---------------------------------------------------
-#numberProd {
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
 //----------------------------------------------------
 .fav {
     color: rgba(245, 170, 240);
@@ -73,23 +68,11 @@ svg.material-icons {
 //----------------------------------------------------------
 .myCart {
     flex-direction: column;
-    color: #0012ee;
+    color: #3f51b5;
     text-decoration-line: none;
 }
 
 // ----------------------------------------------------------
-.theCartCol {
-    transform: scale(2.7);
-    position: fixed;
-    color: blue;
-    display: flex;
-    flex-direction: column;
-    margin-left: 140px;
-    margin-top: 220px;
-    z-index: 2000;
-    text-decoration-line: none;
-}
-
 //-------------------------------------------------------------
 .home {
     // color: black;
@@ -109,20 +92,20 @@ svg.material-icons {
     // flex-wrap: wrap;
     justify-content: center;
     // margin: 70px;
-    margin-top: 100px;
+    margin-top: 5%; //100px;
 }
 
 .card {
     // all: unset;
-    border-radius: 8px;
-    border: 1px solid #eee;
-    background-color: #fafafa;
-    height: 400px;
-    width: 400px;
+    border-radius: 4px;
+    border: 1px solidrgba(10, 100, 200, 0.8);
+    background-color: rgba(242, 246, 243, 0.7);
+    height: 420px;
+    width: 390px;
     width: content;
     height: content;
-    margin: 20px;
-    padding: 10px;
+    margin: 6px;
+    padding: 4px;
     // display: flex;
     // flex-direction: row;
     justify-content: center;
@@ -131,14 +114,16 @@ svg.material-icons {
     box-shadow: 1px 1px 1px #343a40;
     display: flex;
     flex-direction: column;
+    transform: scale(0.88);
 }
 
 // -----------------------------------------------------------
 .card:hover {
     z-index: 3000;
-    transform: scale(1.34);
+    transform: scale(1);
     //  margin:50px;
-    box-shadow: 1px 1px 10px 2px #343a40;
+    // box-shadow: 1px 1px 4px 2px #343a40;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
     //  #3f51b5;
 }
 
@@ -146,24 +131,26 @@ svg.material-icons {
 .imgClass {
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 5px;
-    max-width: 160px;
-    max-height: 160px;
+    padding: 2px;
+    max-width: 140px;
+    max-height: 140px;
 }
 
 .go {
+    color: rgb(0, 40, 255);
     margin-left: 30px;
 }
 
 //------------------------------------------------------------------
 .imgClass:hover {
     border-radius: 20px;
-    box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
+    // box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
 }
 
 //-----------------------------------------------------------------------
 .del {
-    background-color: #a61400;
+    background-color: rgba(210, 0, 150, 0.7);
+    // background-color: rgba(250, 30, 150, 0.9);
     //  #c92a2a;
     color: white;
 }
@@ -175,7 +162,9 @@ a {
 
 //-----------------------------------------------------------------
 .add {
-    background-color: #343a40;
+    background-color: rgba(0, 140, 210, 0.6);
+
+    // color:#3f51b5;
     color: white;
     //   black;
 }
@@ -197,9 +186,10 @@ a {
 
 //------------------------------------------------------------------------
 .btns {
-    margin: 14px;
+    margin: 10px;
     flex-direction: row;
     // margin-left:40px;
+
 }
 
 //--------------------------------------------------------------------------
