@@ -10,7 +10,20 @@ export class OrdersService {
   myCart: ICart;
   //-------------------------------------------------
   constructor(private http: HttpClient) {
-    this.myCart = new Cart();
+    let check = localStorage.getItem("cart");
+    if (check !== null) {
+      this.myCart = JSON.parse(check);
+      console.log("got local storage , cart = ", this.myCart)
+    }
+    else {
+      this.myCart = new Cart();
+    }
+  }
+  //====================================================================
+  deleteProduct(it: any) {
+    console.log(" inside service - delete the product from the cart !");
+    this.myCart.items = this.myCart.items.filter((i) => i.id !== it.id);
+    this.cartUpdate_finalPrices_Amounts();
   }
   //====================================================================
   cartUpdate_finalPrices_Amounts() {
@@ -21,13 +34,14 @@ export class OrdersService {
       finalPrice += it.finalPrice;
     })
     //************ */
-    this.myCart.items = this.myCart.items.filter((it) => it.amount !== 0 )
-    console.log("Reham after filter cart = ", this.myCart.items);
+    this.myCart.items = this.myCart.items.filter((it) => it.amount !== 0)
+    // console.log("Reham after filter cart = ", this.myCart.items);
     //**************** */
     this.myCart.finalAmount = amount;
     this.myCart.finalPrice = Math.round(finalPrice * 100) / 100;
     //Math.round(num * 100) / 100
-    console.log("updating final price & amounts , cart = ", this.myCart);
+    localStorage.setItem("cart", JSON.stringify(this.myCart));
+    // console.log("updating final price & amounts , cart = ", this.myCart);
   }
   //========================================================================
   addToCart(prod: any) {
@@ -36,11 +50,11 @@ export class OrdersService {
     } else {
       const newItem = new Item(prod);
       this.myCart.items.push(newItem);
-      console.log("reham - new item added to the cart , item  = ", newItem);
+      // console.log("reham - new item added to the cart , item  = ", newItem);
     }
     this.cartUpdate_finalPrices_Amounts();
 
-    console.log("cart after update = ", this.myCart);
+    // console.log("cart after update = ", this.myCart);
   }
   //========================================================================
   decreaseFromCart(prod: any) {
@@ -48,7 +62,7 @@ export class OrdersService {
       this.updateCounterPrices_Of_ExistedItem(prod.id, false);;
       this.cartUpdate_finalPrices_Amounts();
 
-      console.log("cart after update = ", this.myCart);
+      // console.log("cart after update = ", this.myCart);
     } else {
       console.log("ERROR , there is no such item in the  cart !! item = ", prod, ", the Cart = ", this.myCart);
     }

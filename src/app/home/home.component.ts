@@ -15,17 +15,17 @@ export class HomeComponent implements OnInit {
   // flagZeroAmount: boolean
   myCart!: ICart;
   // ==========================================================================
-  constructor(private service1: FetchService,
-    private service2: OrdersService) { }
+  constructor(private serviceFetch: FetchService,
+    private serviceOrder: OrdersService) { }
   // ==========================================================================
   ngOnInit() {
-    this.service1.getProducts()
+    this.serviceFetch.getProducts()
       .subscribe((response: any) => {
         this.products = response
         console.log("products = ", response);
       });
 
-    this.myCart = this.service2.getCart()
+    this.myCart = this.serviceOrder.getCart()
     // console.log("Items I got from orders service, to the home page = ", res);
     // this.myCart = res;
     // })
@@ -35,19 +35,24 @@ export class HomeComponent implements OnInit {
   incItem(p: any) {
     // console.log("added to cart , product = ", p)
     // this.flagZero = false;
-    this.service2.addToCart(p);
+    this.serviceOrder.addToCart(p);
     // setTimeout(() => {
-    this.myCart = this.service2.getCart();
+    this.myCart = this.serviceOrder.getCart();
     // }, 500)
   }
   // ==========================================================================
   decItem(p: any) {
     // console.log("deleted, product = ", p)
-    this.service2.decreaseFromCart(p);
+    this.serviceOrder.decreaseFromCart(p);
     // setTimeout(() => {
-    this.myCart = this.service2.getCart();
+    this.myCart = this.serviceOrder.getCart();
     // }, 500)
   }
   // ==========================================================================
+  pass(p:any){
+
+    console.log("in home , function pass , p = ", p);
+  }
+  //================================================================
 }
 

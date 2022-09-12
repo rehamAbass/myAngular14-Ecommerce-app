@@ -77,9 +77,9 @@ svg.material-icons {
 }
 
 .card-container {
-    //  margin-left: 10%;
+    margin-left: 10%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     // display: flex;
     // flex-wrap: wrap;
@@ -130,7 +130,7 @@ svg.material-icons {
 }
 
 .go {
-    color: rgb(0, 40, 255);
+    color: rgb(0, 180, 255);
     margin-left: 30px;
 }
 
@@ -142,7 +142,8 @@ svg.material-icons {
 
 //-----------------------------------------------------------------------
 .del {
-    background-color: rgba(210, 0, 150, 0.7);
+    background-color: rgba(140, 0, 60, 1);
+    // rgba(210, 0, 150, 0.7);
     // background-color: rgba(250, 30, 150, 0.9);
     //  #c92a2a;
     color: white;
@@ -156,7 +157,7 @@ a {
 //-----------------------------------------------------------------
 .add {
     // background-color: rgba(0, 140, 210, 0.6);
-background-color: rgba(4, 190, 100, 0.795);
+    background-color: rgb(37, 105, 105);
     // color:#3f51b5;
     color: white;
     //   black;

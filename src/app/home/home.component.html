@@ -14,7 +14,7 @@
           <button class="del btnadd"  
                  (click)="decItem(p)"> - </button>
          
-          <a routerLink='product/{{p.id}}' class ='go'>
+          <a routerLink='product/{{p.id}}' class ='go' (click)="pass(p)" >
             <span class="material-icons">double_arrow</span> details 
           </a>
        </div>

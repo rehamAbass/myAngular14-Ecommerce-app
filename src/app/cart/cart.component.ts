@@ -44,6 +44,12 @@ export class CartComponent implements OnInit {
     this.myCart = this.service.getCart();
     // }, 300)
   }
+
+  removeFromCart(it: Item) {
+    console.log(" Hey from remove from cart , prod = ", it.title)
+    this.service.deleteProduct(it);
+    this.myCart = this.service.getCart();
+  }
   // ==========================================================================
 }
 //======================================================================

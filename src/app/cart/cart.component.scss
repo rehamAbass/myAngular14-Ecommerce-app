@@ -1,50 +1,75 @@
-.titleProd {
-    color: #3f51b5;
-    text-align: center;
-    // text-shadow: 1px blue;
-    font-size: large;
+.basic {
     font-family: 'Milonga';
-    font-weight: 400;
 }
 
-//---------------------------------------------------------------
-.thePrice {
+#titleProd {
     font-family: 'Milonga';
+    color: steelblue;
+    font-weight: 650;
+    font-size: larger;
+    font-style: normal;
+    text-align: center;
+    text-justify: newspaper;
+    // border-style: ridge;
+    // box-shadow: 1px 1px 4px 1px rgba(90, 200, 250, 0.8);
+    margin: 15px 10px;
+    padding: 15px 10px;
+    // width: max-width;
 }
+
+//-------------------------------------------------------------------
 
 .title {
     font-family: 'Milonga';
-    font-weight: 650;
-    font-size: x-large;
+    font-weight: 750;
+    font-size: xx-large;
     font-style: normal;
     text-align: center;
     text-justify: newspaper;
     border-style: outset;
     // background-color: rgba(255, 255, 250, 0.95);
-    box-shadow: 1px 1px 4px 15px rgba(250, 250, 255, 1);
+    box-shadow: 1px 1px 4px 1px rgba(90, 160, 250, 0.8);
+    margin: 15px 15px;
+    padding: 15px 15px;
 }
 
 //----------------------------------------------------------
 .content {
-    transform :scale(0.85);
-    font-family: 'Milonga';
+    transform: scale(0.7);
+    // font-family: 'Milonga';
     display: flex;
-    margin: 50px auto 20px;
-    padding: 0 10px;
-    max-width: 1000px;
+    margin: 50px;
+    // padding: 0 10px;
+    // width: 2000px;
     flex-direction: column;
     align-items: center;
-    font-family: 'Milonga';
-    font-weight: 600;
-    font-size: x-large;
-    font-style: normal;
+    // font-family: 'Milonga';
+    // font-weight: 600;
+    // font-size: x-large;
+    // font-style: normal;
     text-align: center;
     text-justify: newspaper;
-    border-style: outset;
+    // border-style: outset;
+    // width: max-width;
 }
 
 .deleteIcon {
     color: #38d9a9;
+}
+
+#dell {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+
+    color: rgba(100, 140, 150, 0.7);
+    // #07d9a9;
+    margin-left: 80px;
+    // align-content:right;
+    // align-text:right;
+    // float:right  ;
+    align-self: flex-end;
+    margin-right: 5px;
+    transform: scale(1.8);
 }
 
 .prods {
@@ -52,13 +77,14 @@
     // all: unset;
     // border-radius: 8px;
     border: 2px solid #0000;
-    background-color: #fafafa;
-    max-height: 400px;
+    background-color: #f8fafa;
+    // width: max-content;
+    // max-height: 400px;
     // width: 400px;
-    width: content;
-    height: content;
-    margin: 20px;
-    padding: 10px;
+    // width: content;
+    height: max-content;
+    margin: 10px;
+    // padding: 10px;
     // display: flex;
     // flex-direction: row;
     justify-content: center;
@@ -67,8 +93,7 @@
     box-shadow: 1px 1px 1px #343a40;
     display: flex;
     flex-direction: column;
-    font-family: 'Milonga';
-    font-weight: 550;
+    // width: max-width;
     font-size: x-large;
     font-style: normal;
     text-align: center;
@@ -88,8 +113,8 @@
 
 //---------------------------------------------------------
 .imgClass {
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    border: 1px solid #2d3;
+    border-radius: 4px;
     padding: 5px;
     max-width: 90px;
     max-height: 90px;
@@ -97,14 +122,15 @@
 
 //------------------------------------------------------------------
 .imgClass:hover {
-    border-radius: 20px;
+    border-radius: 15px;
     // box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
 }
 
 //-----------------------------------------------------------------------
 .del {
-    background-color: rgba(220, 0, 150, 0.6);
-    //  rgba(240, 10, 80, 1);
+    background-color: //
+        // rgba(220, 0, 150, 0.6);
+        rgba(140, 0, 60, 1);
     //  #c92a2a;
     color: white;
 }
@@ -117,7 +143,7 @@ a {
 //-----------------------------------------------------------------
 .add {
     // box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
-    background-color: rgba(4, 190, 100, 0.795);
+    background-color: rgb(63, 131, 98);
     // rgba(0, 245, 80, 1);
     color: white;
     //   black;
@@ -167,8 +193,8 @@ h2 {
 
 p {
     font-family: 'Milonga';
-    font-weight: 500;
-    font-size: large;
+    font-weight: 600;
+    font-size: larger;
     font-style: normal;
     text-align: center;
     text-justify: newspaper;
@@ -181,7 +207,8 @@ p {
 }
 
 .opac {
-    opacity: 0.8
+    color: gray;
+    // opacity: 0.8
 }
 
 .space {

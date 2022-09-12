@@ -1,16 +1,20 @@
 
 <div class="content">
-  <ol class="container">
-   
+    <ol >
     <h1 class = 'title price'> Final Price = {{myCart.finalPrice}}
 <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABBUlEQVRIie3UvUoDQRQF4C9ipbWQQtFCa02RRrAX7MTGKthq70MIaX0Fm5Cn0Aews9WIQsAyYCGJxU5gGNb90VUscuBy78zdc8/OnmFZ4L/hCM+YfRFjDNHJ4e7gFYMigVHB8Dgm6CbcXuhN482l5KH1kM/QSmILF3jHCvoJt5XkXIEiPOIaV2F9gHYZqY7AHDdRvduEQGreKOqtNSGwL/sUx2E9iXrLTQjkmlcV3/HgTwRmSf6RwEdUr4Y8lBl/V0YuNQlvUb2BB5xU4KHaCe6j+rTq4DoCL7gN9SXOsVlXaI6pzLhest+V3f8qP8KnIoFBeOPtnN6ezNxxyfDD2sda4FfxCc+ARabuT4U7AAAAAElFTkSuQmCC" />
 
     </h1> 
-    <p class = 'title amount'> Finall Amount = {{myCart.finalAmount}}</p>
+    <h2 class = 'title amount'> Finall Amount = {{myCart.finalAmount}}</h2>
+
+
     <li *ngFor="let it of myCart.items" class="prods">
       <div class="prod">
-        <h4 class='titleProd'> {{it.title}}</h4>
+        <h1 id='titleProd'> {{it.title}} 
+          <button (click)="removeFromCart(it)"
+          class="material-icons" id="dell">
+             cancel-show </button></h1>
         <p class='price'> price per one         : {{ it.price}}
           <img class="shekel"
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABBUlEQVRIie3UvUoDQRQF4C9ipbWQQtFCa02RRrAX7MTGKthq70MIaX0Fm5Cn0Aews9WIQsAyYCGJxU5gGNb90VUscuBy78zdc8/OnmFZ4L/hCM+YfRFjDNHJ4e7gFYMigVHB8Dgm6CbcXuhN482l5KH1kM/QSmILF3jHCvoJt5XkXIEiPOIaV2F9gHYZqY7AHDdRvduEQGreKOqtNSGwL/sUx2E9iXrLTQjkmlcV3/HgTwRmSf6RwEdUr4Y8lBl/V0YuNQlvUb2BB5xU4KHaCe6j+rTq4DoCL7gN9SXOsVlXaI6pzLhest+V3f8qP8KnIoFBeOPtnN6ezNxxyfDD2sda4FfxCc+ARabuT4U7AAAAAElFTkSuQmCC" />
