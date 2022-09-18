@@ -9,14 +9,12 @@
     <li *ngFor="let it of myCart.items" class="prods">
       <div class="prod">
         <h1 id='titleProd'> {{it.title}} 
-          <button (click)="removeFromCart(it)"
-          class="material-icons" id="dell">
-             cancel-show </button></h1>
-        <p class='price'> price per one         : {{ it.price}} $
-      <span class="space opac"> X</span> <span > {{it.amount}}</span>
-      <span class="space"> =  Total price                 : {{it.finalPrice}} $
-  </span>
-
+          <button (click)="removeFromCart(it)" class="material-icons" id="dell">cancel-show </button>
+        </h1>
+        <p class='price'>
+          <span> price per one  : {{ it.price}} $ </span>
+          <span class="space opac"> X</span> <span > {{it.amount}}</span>
+          <span class="space">  =  Total price                 : {{it.finalPrice}} $</span>
       </p>
         
         <div class="btns">
