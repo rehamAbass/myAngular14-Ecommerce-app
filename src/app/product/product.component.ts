@@ -10,12 +10,26 @@ import { FetchService } from '../services/fetch.service';
 })
 ////////////////////////////////
 export class ProductComponent {
-  id: any
-  p: any
+//   id: any
+//   p: any
   list: any
   // flaglist: boolean
   // flagid: boolean
   flag: boolean
+    id: number = 2
+  p: any = null
+//   list: any
+//   //=============================================================================
+  tryMe() {
+     if (this.p === null) return false;
+    return true;
+  }
+//   //==================================================================
+//   ngOnInit() {
+//     this.tryMe();
+//   }
+  
+  
   //========================================================================================================
   ngOnInit() {
     // this.id = this.getId();
