@@ -39,9 +39,7 @@
     transform: scale(0.82);
     // font-family: 'Milonga';
     display: flex;
-    margin: 23px;
-    // padding: 0 10px;
-    // width: 2000px;
+    margin: 20px;
     flex-direction: column;
     align-items: center;
     // font-family: 'Milonga';
@@ -80,7 +78,7 @@
     background-color: #f4fafa;
     // width: max-content;
     // max-height: 400px;
-    width: 90%; 
+//     width: 90%; 
 //       400px;
     // width: content;
     height: max-content;
@@ -95,7 +93,7 @@
     display: flex;
     flex-direction: column;
     // width: max-width;
-    font-size: x-large;
+    font-size: larger;
     font-style: normal;
     text-align: center;
     text-justify: newspaper;
@@ -108,7 +106,7 @@
     // transform: scale(1.5);
     //  margin:50px;
     // box-shadow: 1px 1px 2px 3px #343a40;
-    box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
+    box-shadow: 0 0 2px 1px rgba(0, 140, 250, 0.7);
     //  #3f51b5;
 }
 
@@ -144,7 +142,7 @@ a {
 //-----------------------------------------------------------------
 .add {
     // box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
-    background-color: rgb(63, 131, 98);
+    background-color: rgb(30, 200, 60);
     // rgba(0, 245, 80, 1);
     color: white;
     //   black;
