@@ -35,7 +35,7 @@
 
 //----------------------------------------------------------
 .content {
-   background-color:rgba(190,190,200,0.15);
+//    background-color:rgba(190,190,200,0.15);
     transform: scale(0.82);
     // font-family: 'Milonga';
     display: flex;
@@ -59,11 +59,10 @@
 }
 
 #dell {
-    background-color: rgba(0, 0, 0, 0);
+//     background-color: rgba(0, 0, 0, 0);
     border: 0px;
 
-    color: rgba(50,50,50,0.7);
-    // #07d9a9;
+    color: black;
     margin-left: 80px;
     // align-content:right;
     // align-text:right;
