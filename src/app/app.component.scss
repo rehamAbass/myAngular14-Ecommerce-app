@@ -24,7 +24,6 @@ a {
 .titleProd {
     color: #3f51b5;
     text-align: center;
-    // text-shadow: 1px blue;
     font-size: large;
     font-family: 'Milonga';
     font-weight: 400;
@@ -32,7 +31,6 @@ a {
 
 //----------------------------------------------------------------
 #toolbar {
-    // font-family: 'Kleymisska'; //, 'Milonga';
     position: absolute;
     top: 1%;
     left: 0;
@@ -41,8 +39,7 @@ a {
     height: 50px;
     display: flex;
     align-items: center;
-    background-color: #343a40;
-    // #0f51b5;
+    background-color: rgba(40,40,40,0.9);
     color: white;
     font-weight: 400;
     font-size: larger;
