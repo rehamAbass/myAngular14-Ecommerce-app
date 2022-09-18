@@ -1,9 +1,6 @@
 <div class="card"  *ngIf = "tryMe() === true">
         <h2 class='titleProd'> {{ p.title}}</h2>
-        <h1 class='thePrice'> {{ p.price}} $
-<!--           <img
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABBUlEQVRIie3UvUoDQRQF4C9ipbWQQtFCa02RRrAX7MTGKthq70MIaX0Fm5Cn0Aews9WIQsAyYCGJxU5gGNb90VUscuBy78zdc8/OnmFZ4L/hCM+YfRFjDNHJ4e7gFYMigVHB8Dgm6CbcXuhN482l5KH1kM/QSmILF3jHCvoJt5XkXIEiPOIaV2F9gHYZqY7AHDdRvduEQGreKOqtNSGwL/sUx2E9iXrLTQjkmlcV3/HgTwRmSf6RwEdUr4Y8lBl/V0YuNQlvUb2BB5xU4KHaCe6j+rTq4DoCL7gN9SXOsVlXaI6pzLhest+V3f8qP8KnIoFBeOPtnN6ezNxxyfDD2sda4FfxCc+ARabuT4U7AAAAAElFTkSuQmCC" />
-        </h1> -->
+        <h1 class='thePrice'> {{ p.price}} $</h1> 
         <h1>Category : {{p.category}}</h1>
         <img class="imgClass" src={{p.image}} alt="img">
         <p class="desc" contentEditable="true">
