@@ -10,26 +10,6 @@
     font-family: 'Kleymisska', 'Milonga';
     font-weight: 550;
 }
-
-// //----------------------------------------------------------------
-// .toolbar {
-//      font-family: 'Kleymisska';//, 'Milonga';
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     right: 0;
-//     height: 3%;
-//     display: flex;
-//     align-items: center;
-//     background-color: #3f51b5;
-//     color: white;
-//     font-weight: 500;
-//     font-size: larger;
-//     padding: 10px;
-//     padding-left: 30%;
-//     // box-shadow: 1px 1px 2px 2px #c5f6fa;
-// }
-
 //---------------------------------------------------------------
 .thePrice {
     font-size: x-large;
@@ -43,12 +23,13 @@
 
 //----------------------------------------------------------
 .content {
-  background-color:rgba(100,100,140,0.2);
+   background: linear-gradient(to left,
+        rgba(90, 90, 170, 0.3) 0%,
+          rgba(70, 90, 230, 0.3) 30%,
+          rgba(70, 230, 170, 0.3) 70%);
+//   background-color:rgba(100,100,140,0.2);
     display: flex;
-//     margin: 50px;
-//       82px auto 32px;
     padding: 50px;
-//     max-width: 960px;
     flex-direction: column;
     align-items: center;
 }
@@ -58,8 +39,6 @@ svg.material-icons {
     height: 24px;
     width: auto;
 }
-
-//----------------------------------------------------
 //----------------------------------------------------------
 .myCart {
     flex-direction: column;
