@@ -35,11 +35,11 @@
 
 //----------------------------------------------------------
 .content {
- background-color:rgba(10,10,20,0.7);
-    transform: scale(0.82);
+//  background-color:rgba(10,10,20,0.7);
+//     transform: scale(0.82);
     // font-family: 'Milonga';
     display: flex;
-    margin: 20px;
+//     margin: 20px;
     flex-direction: column;
     align-items: center;
     // font-family: 'Milonga';
@@ -127,7 +127,7 @@
 
 //-----------------------------------------------------------------------
 .del {
-    background-color: rgba(240, 20, 50, 1);
+    background-color: rgba(240,60, 200, 0.9);
     //  #c92a2a;
     color: white;
 }
@@ -140,7 +140,7 @@ a {
 //-----------------------------------------------------------------
 .add {
     // box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
-    background-color: rgb(30, 200, 60);
+    background-color: rgb(80, 250, 190);
     // rgba(0, 245, 80, 1);
     color: white;
     //   black;
