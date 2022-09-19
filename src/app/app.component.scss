@@ -11,10 +11,11 @@
 a {
     text-decoration: none;
 
-    color: rgba(90, 90, 90, 0.9);
+    color: rgba(100, 100, 100, 1);
 
     &.active {
-        color: #3f51b5;
+        color: rgba(190,100,200,0.95);
+//           #3f51b5;
     }
 }
 
