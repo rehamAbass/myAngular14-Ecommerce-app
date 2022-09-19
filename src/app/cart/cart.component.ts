@@ -36,6 +36,13 @@ export class CartComponent implements OnInit {
     // this.finalAmount = this.myCart.finalAmount;
     // this.finalPrice = this.myCart.finalPrice;
     // }, 300)
+               Swal.fire({
+          icon: "success",
+          iconColor:'#33ff00',
+          title: "added to cart",
+          text: "",
+           showConfirmButton: false,
+        })
   }
   // ==========================================================================
   decrease(it: Item) {
@@ -43,6 +50,13 @@ export class CartComponent implements OnInit {
     // setTimeout(() => {
     this.myCart = this.service.getCart();
     // }, 300)
+           Swal.fire({
+          icon: "success",
+          iconColor:'#ff0077',
+          title: "removed 1 from cart",
+          text: "",
+           showConfirmButton: false,
+        })
   }
 
   removeFromCart(it: Item) {
