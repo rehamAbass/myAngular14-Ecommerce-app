@@ -58,7 +58,6 @@ export class HomeComponent implements OnInit {
        Swal.fire({
           icon: "success",
           iconColor:'#e6004c',
-//          #ff0077
           title: "removed 1 from cart",
           text: "",
            showConfirmButton: false,
