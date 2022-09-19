@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ICartItem, ICart } from '../models/theCart';
 import { FetchService } from '../services/fetch.service';
 import { OrdersService } from '../services/orders.service';
+import Swal from 'sweetalert2';
 // import { IProduct } from '../models/product';
 @Component({
   selector: 'app-home',
@@ -39,6 +40,12 @@ export class HomeComponent implements OnInit {
     // setTimeout(() => {
     this.myCart = this.serviceOrder.getCart();
     // }, 500)
+     Swal.fire({
+          icon: "success",
+          iconColor:'yellow',
+          title: "✅ Succeded to Add to cart",
+          text: "",
+        })
   }
   // ==========================================================================
   decItem(p: any) {
