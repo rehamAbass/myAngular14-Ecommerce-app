@@ -57,6 +57,15 @@ export class HomeComponent implements OnInit {
     // setTimeout(() => {
     this.myCart = this.serviceOrder.getCart();
     // }, 500)
+       Swal.fire({
+          icon: "success",
+          iconColor:'red',
+          title: "removed 1 from cart",
+          text: "",
+           showConfirmButton: false,
+       backdrop: `
+    rgba(123,0,0,0.3)`
+        })
   }
   // ==========================================================================
   pass(p:any){
