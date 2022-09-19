@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit {
           iconColor:'yellow',
           title: "Added to cart",
           text: "",
-           showConfirmButton: false
+           showConfirmButton: false,
         })
   }
   // ==========================================================================
@@ -61,7 +61,6 @@ export class HomeComponent implements OnInit {
           title: "removed 1 from cart",
           text: "",
            showConfirmButton: false,
-       backdrop:rgba(123,0,0,0.3)
         })
   }
   // ==========================================================================
