@@ -4,21 +4,15 @@
 
 #titleProd {
     font-family: 'Milonga';
-    color: steelblue;
     font-weight: 650;
     font-size: larger;
     font-style: normal;
     text-align: center;
     text-justify: newspaper;
-    // border-style: ridge;
-    // box-shadow: 1px 1px 4px 1px rgba(90, 200, 250, 0.8);
-    margin: 15px 10px;
-    padding: 15px 10px;
-    // width: max-width;
+    margin: 10px;
+    padding: 10px;
 }
-
 //-------------------------------------------------------------------
-
 .title {
     font-family: 'Milonga';
     font-weight: 750;
@@ -27,89 +21,59 @@
     text-align: center;
     text-justify: newspaper;
     border-style: outset;
-    // background-color: rgba(255, 255, 250, 0.95);
-    box-shadow: 1px 1px 4px 1px rgba(90, 160, 250, 0.8);
-    margin: 15px 15px;
-    padding: 15px 15px;
+    box-shadow: 1px 1px 1px 1px rgba(90,60,50,0.8);
+    margin: 15px;
+    padding: 15px;
 }
-
 //----------------------------------------------------------
 .content {
-//  background-color:rgba(10,10,20,0.7);
 //     transform: scale(0.82);
-    // font-family: 'Milonga';
     display: flex;
-//     margin: 20px;
     flex-direction: column;
     align-items: center;
-    // font-family: 'Milonga';
-    // font-weight: 600;
-    // font-size: x-large;
-    // font-style: normal;
     text-align: center;
     text-justify: newspaper;
-    // border-style: outset;
-    // width: max-width;
 }
-
+//==============================================================
 .deleteIcon {
     color: #38d9a9;
 }
-
+//=============================================================
 #dell {
     background-color: rgba(0, 0, 0, 0);
     border: 0px;
-
     color: black;
     margin-left: 30px;
+    padding-right:2px;
+    padding-left:5px;
     align-content:right;
     align-text:right;
     float:right  ;
-//     align-self: flex-end;
-    margin-right: 5px;
-//     transform: scale(1.4);
+//     margin-right: 5px;
 }
-
+//================================================================
 .prods {
     // transform :scale(0.8);
-    // all: unset;
-    // border-radius: 8px;
     border: 2px solid #0000;
-    background-color: #f4fafa;
-    // width: max-content;
-    // max-height: 400px;
-//     width: 90%; 
-//       400px;
-    // width: content;
+    // background-color: #f4fafa;
     height: max-content;
-    margin: 10px;
-    // padding: 10px;
-    // display: flex;
-    // flex-direction: row;
+    margin: 20px;
     justify-content: center;
     align-items: center;
     // transition: all 0.1s ease-out;
     box-shadow: 1px 1px 1px #343a40;
     display: flex;
     flex-direction: column;
-    // width: max-width;
     font-size: larger;
     font-style: normal;
     text-align: center;
     text-justify: newspaper;
     border-style: outset;
 }
-
 // -----------------------------------------------------------
 .prods:hover {
-    // z-index: 3000;
-    // transform: scale(1.5);
-    //  margin:50px;
-    // box-shadow: 1px 1px 2px 3px #343a40;
     box-shadow: 0 0 2px 1px rgba(0, 140, 250, 0.7);
-    //  #3f51b5;
 }
-
 //---------------------------------------------------------
 .imgClass {
     border: 1px solid #2d3;
@@ -118,47 +82,32 @@
     max-width: 90px;
     max-height: 90px;
 }
-
 //------------------------------------------------------------------
 .imgClass:hover {
     border-radius: 15px;
     // box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
 }
-
 //-----------------------------------------------------------------------
 .del {
     background-color: rgba(240,60, 200, 0.9);
-    //  #c92a2a;
     color: white;
 }
-
-a {
+//======================================================================
+a{
     text-decoration: none;
     color: #343a40;
 }
-
 //-----------------------------------------------------------------
 .add {
-    // box-shadow: 0 0 2px 1px rgba(0, 140, 210, 0.6);
     background-color: rgb(80, 250, 190);
-    // rgba(0, 245, 80, 1);
     color: white;
-    //   black;
 }
-
-.amount {
-    // opacity: 0.85;
-    //  font-weight: 500;
-    // font-size: x-large;
-}
-
+//==================================================================
 .price {
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 30px;
-
 }
-
 //---------------------------------------------------------------------
 .btnadd {
     margin-left: 12px;
@@ -168,26 +117,23 @@ a {
     font-weight: 500;
     font-size: xx-large;
 }
-
+//=======================================================================
 .btnadd:hover {
     background-color: black;
     color: white;
 }
-
 //------------------------------------------------------------------------
 .btns {
     margin: 10px;
     flex-direction: row;
-    // margin-left:40px;
 }
-
 //--------------------------------------------------------------------------
 h1,
 h2 {
     margin: 5px;
     padding: 5px;
 }
-
+//=========================================================================
 p {
     font-family: 'Milonga';
     font-weight: 600;
@@ -196,20 +142,15 @@ p {
     text-align: center;
     text-justify: newspaper;
 }
-
-//--------------------------------------------------------------------------
-.shekel {
-    opacity: 0.5;
-    // margin-right: 22px;
-}
-
+//===============================================================================
 .opac {
     color: gray;
     // opacity: 0.8
 }
-
+//==============================================================================
 .space {
     // opacity: 0.75;
     margin-right: 20px;
     margin-left: 20px;
 }
+//===============================================================================
