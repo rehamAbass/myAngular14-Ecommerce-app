@@ -11,12 +11,11 @@
 a {
     text-decoration: none;
      text-shadow: 1px 1px rgba(0,0,0,1);
-    color: rgba(100, 100, 100, 1);
+     color: rgba(120, 120, 120, 1);
 
     &.active {
-       color: rgba(255, 200, 55,1);
-    text-shadow: 1px 1px rgba(0,0,0,1);
-    }
+      color: rgba(255, 180,0,1);
+     }
 }
 
 //-----------------------------------------------------------
@@ -82,7 +81,7 @@ svg.material-icons {
     margin-left: 18%;
     border-radius: 40%;
     padding: 1px 4px;
-    color: rgba(255, 200, 55,1);
+    color: rgba(255, 180,0,1);
     text-shadow: 1px 1px rgba(0,0,0,1);
     background-color: rgba(255,255,255,0.04);
     font-family: 'Milonga';
