@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit {
           iconColor:'yellow',
           title: "Added to cart",
           text: "",
-           showConfirmButton: false,
+//            showConfirmButton: false,
         })
   }
   // ==========================================================================
@@ -55,13 +55,13 @@ export class HomeComponent implements OnInit {
     // setTimeout(() => {
     this.myCart = this.serviceOrder.getCart();
     // }, 500)
-       Swal.fire({
-          icon: "success",
-          iconColor:'red',
-          title: "removed 1 from cart",
-          text: "",
-           showConfirmButton: false,
-        })
+//        Swal.fire({
+//           icon: "success",
+//           iconColor:'red',
+//           title: "removed 1 from cart",
+//           text: "",
+//            showConfirmButton: false,
+//         })
   }
   // ==========================================================================
   pass(p:any){
