@@ -25,7 +25,8 @@
     "ngx-bootstrap": "^9.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+     "sweetalert2": "^11.4.7",
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.1",
