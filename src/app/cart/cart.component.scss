@@ -28,7 +28,12 @@
 //----------------------------------------------------------
 .content {
    min-width : 1200px;
-  background-color:  rgba(70, 90, 230, 0.3);
+   background: linear-gradient(to left,
+       #FDD5B1 0%,
+          #CEC8EF 30%,
+          #FFCFF170%);
+  
+//   background-color:  rgba(70, 90, 230, 0.3);
 //     rgba(80,0,100,0.7);
     margin:0px;
 //     transform: scale(0.95);
