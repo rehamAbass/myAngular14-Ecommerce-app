@@ -46,8 +46,6 @@ export class HomeComponent implements OnInit {
           title: "Added to cart",
           text: "",
            showConfirmButton: false,
-       backdrop: `
-    rgba(0,0,123,0.3)`
         })
   }
   // ==========================================================================
@@ -64,7 +62,7 @@ export class HomeComponent implements OnInit {
           text: "",
            showConfirmButton: false,
        backdrop: `
-    rgba(123,0,0,0.3)`
+    rgba(123,0,0,0.3)`,
         })
   }
   // ==========================================================================
