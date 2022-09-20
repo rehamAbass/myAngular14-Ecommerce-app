@@ -61,6 +61,7 @@ export class HomeComponent implements OnInit {
           title: "removed 1 from cart",
           text: "",
            showConfirmButton: false,
+         
         })
   }
   // ==========================================================================
