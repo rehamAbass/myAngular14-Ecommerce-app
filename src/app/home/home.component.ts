@@ -51,7 +51,7 @@ export class HomeComponent implements OnInit {
   // ==========================================================================
   decItem(p: any) {
     // console.log("deleted, product = ", p)
-    this.serviceOrder.decreaseFromCart(p);
+    if(this.serviceOrder.decreaseFromCart(p) === true){
     // setTimeout(() => {
     this.myCart = this.serviceOrder.getCart();
     // }, 500)
@@ -63,6 +63,16 @@ export class HomeComponent implements OnInit {
            showConfirmButton: false,
          
         })
+    }
+    else{
+    
+      Swal.fire({
+        icon:"warning",
+        iconColor :"orange",
+        titlr:"Sorry can not remove this item , It is not in the cart at all",
+        showConfirmButton:false,
+      })
+    }
   }
   // ==========================================================================
   pass(p:any){
