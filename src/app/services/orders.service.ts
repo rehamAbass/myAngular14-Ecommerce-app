@@ -61,10 +61,12 @@ export class OrdersService {
     if (this.isProductInCart(prod) === true) {
       this.updateCounterPrices_Of_ExistedItem(prod.id, false);;
       this.cartUpdate_finalPrices_Amounts();
-
+        
+      return true;
       // console.log("cart after update = ", this.myCart);
     } else {
       console.log("ERROR , there is no such item in the  cart !! item = ", prod, ", the Cart = ", this.myCart);
+      return false;
     }
   }
   //======================================================================
