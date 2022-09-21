@@ -44,6 +44,7 @@ export class CartComponent implements OnInit {
           title: "added to cart",
           text: "",
            showConfirmButton: false,
+                 backdrop: `rgba(80,220,80,0.4)`,
         })
   }
   // ==========================================================================
@@ -58,6 +59,7 @@ export class CartComponent implements OnInit {
           title: "removed 1 from cart",
           text: "",
            showConfirmButton: false,
+             backdrop: `rgba(220,80,80,0.4)`,
         })
   }
 
