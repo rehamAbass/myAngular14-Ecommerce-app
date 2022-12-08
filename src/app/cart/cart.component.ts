@@ -39,6 +39,10 @@ export class CartComponent implements OnInit {
     // this.finalPrice = this.myCart.finalPrice;
     // }, 300)
                Swal.fire({
+                 html: '<pre>' + str + '</pre>',
+  customClass: {
+    popup: 'format-pre'
+  }
           icon: "success",
           iconColor:'#5260ff',
 //                  '#33ff00',
