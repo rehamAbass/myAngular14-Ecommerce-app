@@ -38,16 +38,13 @@ export class CartComponent implements OnInit {
     // this.finalAmount = this.myCart.finalAmount;
     // this.finalPrice = this.myCart.finalPrice;
     // }, 300)
-               Swal.fire({
-                 html: '<pre>' + str + '</pre>',
-  customClass: {
-    popup: 'format-pre'
-  }
+    Swal.fire({
+          html: '<pre>' +'Thank you ,added to cart 🥰 '  + '</pre>',
           icon: "success",
           iconColor:'#5260ff',
 //                  '#33ff00',
-          title: "Thank you ,added to cart 🥰 ",
-          text: "",
+          //title: "Thank you ,added to cart 🥰 ",
+          //text: "",
            showConfirmButton: false,
                  backdrop: `rgba(0,100,0,0.3)`,
         })
