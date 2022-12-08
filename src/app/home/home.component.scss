@@ -1,4 +1,4 @@
-// @import url('https://fonts.googleapis.com/css2?family=Milongap');
+@import url('https://fonts.googleapis.com/css2?family=Milongap');
 // @import url('https://fonts.googleapis.com/css2?family=Kleymisska');
 //=================================================================================
 
@@ -15,7 +15,11 @@
     font-size: x-large;
     font-family: 'Milonga';
 }
-
+pre {
+//   padding: 10px;
+  font-size: 16px;
+   font-family: 'Milonga';
+}
 //---------------------------------------------------------------
 .svgg {
     margin-left: 30px;
