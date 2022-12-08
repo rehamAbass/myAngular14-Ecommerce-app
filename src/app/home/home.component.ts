@@ -72,10 +72,11 @@ export class HomeComponent implements OnInit {
     else{
     
       Swal.fire({
+         html: '<pre>' +'Sorry can not remove this item, it`s Not in the cart '  + '</pre>',
         icon:"warning",
-        iconColor :"orange",
-        title:"Sorry can not remove this item , It is not in the cart at all",
-        showConfirmButton:false,
+        iconColor :"red",
+//         title:"Sorry can not remove this item , It is not in the cart at all",
+        showConfirmButton: true,
       })
     }
   }
