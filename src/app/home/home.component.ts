@@ -40,12 +40,14 @@ export class HomeComponent implements OnInit {
     // setTimeout(() => {
     this.myCart = this.serviceOrder.getCart();
     // }, 500)
-     Swal.fire({
+      Swal.fire({
           icon: "success",
-          iconColor:'yellow',
-          title: "Added to cart",
+          iconColor:'#5260ff',
+//                  '#33ff00',
+          title: "Thank you ,added to cart 🥰 ",
           text: "",
            showConfirmButton: false,
+                 backdrop: `rgba(0,100,0,0.3)`,
         })
   }
   // ==========================================================================
@@ -55,13 +57,14 @@ export class HomeComponent implements OnInit {
     // setTimeout(() => {
     this.myCart = this.serviceOrder.getCart();
     // }, 500)
-       Swal.fire({
+      Swal.fire({
           icon: "success",
-          iconColor:'#e6004c',
-          title: "removed 1 from cart",
+          iconColor:'#5260ff',
+//              '#ff0077',
+          title: "removed from cart 😔 ",
           text: "",
            showConfirmButton: false,
-         
+             backdrop: `rgba(100,0,0,0.3)`,
         })
     }
     else{
