@@ -56,11 +56,12 @@ export class CartComponent implements OnInit {
     this.myCart = this.service.getCart();
     // }, 300)
            Swal.fire({
+              html: '<pre>' +'removed from cart 😔 '  + '</pre>',
           icon: "success",
           iconColor:'#5260ff',
 //              '#ff0077',
-          title: "removed from cart 😔 ",
-          text: "",
+//           title: "removed from cart 😔 ",
+//           text: "",
            showConfirmButton: false,
              backdrop: `rgba(100,0,0,0.3)`,
         })
@@ -71,11 +72,12 @@ export class CartComponent implements OnInit {
     this.service.deleteProduct(it);
     this.myCart = this.service.getCart();
     Swal.fire({
+        html: '<pre>' +'removed from cart 😔 '  + '</pre>',
           icon: "success",
           iconColor:'rgb(0,0,0)',
 //              '#ff0077',
-          title: "removed from cart 😔 ",
-          text: "",
+//           title: "removed from cart 😔 ",
+//           text: "",
            showConfirmButton: false,
              backdrop: `rgba(0,0,0,0.3)`,
         })
