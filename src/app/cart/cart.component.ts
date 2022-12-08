@@ -69,6 +69,15 @@ export class CartComponent implements OnInit {
     console.log(" Hey from remove from cart , prod = ", it.title)
     this.service.deleteProduct(it);
     this.myCart = this.service.getCart();
+    Swal.fire({
+          icon: "success",
+          iconColor:'rgb(0,0,0)',
+//              '#ff0077',
+          title: "removed from cart 😔 ",
+          text: "",
+           showConfirmButton: false,
+             backdrop: `rgba(0,0,0,0.3)`,
+        })
   }
   // ==========================================================================
 }
