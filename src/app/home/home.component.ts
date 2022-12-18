@@ -43,10 +43,8 @@ export class HomeComponent implements OnInit {
       Swal.fire({
           html: '<pre>' +'Thank you ,added to cart 🥰 '  + '</pre>',
           icon: "success",
-          iconColor:'#5260ff',
-//                  '#33ff00',
+          iconColor:'#00ff00',
 //           title: "Thank you ,added to cart 🥰 ",
-//           text: "",
            showConfirmButton: false,
                  backdrop: `rgba(0,100,0,0.3)`,
         })
@@ -61,8 +59,7 @@ export class HomeComponent implements OnInit {
       Swal.fire({
           html: '<pre>' +'removed from cart 😔 '  + '</pre>',
           icon: "success",
-          iconColor:'#5260ff',
-//              '#ff0077',
+          iconColor:'#ff0000',
 //           title: "removed from cart 😔 ",
 //           text: "",
            showConfirmButton: false,
