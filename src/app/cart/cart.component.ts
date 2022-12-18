@@ -41,7 +41,7 @@ export class CartComponent implements OnInit {
     Swal.fire({
           html: '<pre>' +'Thank you ,added to cart 🥰 '  + '</pre>',
           icon: "success",
-          iconColor:'#5260ff',
+          iconColor:'#00ffff',
 //                  '#33ff00',
           //title: "Thank you ,added to cart 🥰 ",
           //text: "",
@@ -58,7 +58,7 @@ export class CartComponent implements OnInit {
            Swal.fire({
               html: '<pre>' +'removed from cart 😔 '  + '</pre>',
           icon: "success",
-          iconColor:'#5260ff',
+          iconColor:'#ff6000',
 //              '#ff0077',
 //           title: "removed from cart 😔 ",
 //           text: "",
